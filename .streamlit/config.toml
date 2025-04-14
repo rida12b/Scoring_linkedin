@@ -1,0 +1,34 @@
+[theme]
+# Thème clair avec contraste amélioré pour l'application Streamlit
+# Documentation officielle: https://blog.streamlit.io/introducing-theming/
+
+# Couleur principale pour les éléments interactifs (boutons, sliders, etc.)
+primaryColor = "#FF5C8D"  # Rose pour les éléments interactifs
+
+# Couleur de fond pour la zone de contenu principale
+backgroundColor = "#FFFFFF"  # Blanc pour le fond
+
+# Couleur de fond pour la barre latérale et les widgets interactifs
+secondaryBackgroundColor = "#F8FAFC"  # Gris très clair pour les widgets
+
+# Couleur utilisée pour presque tout le texte
+textColor = "#1E293B"  # Bleu-gris foncé pour le texte
+
+# Police pour tout le texte de l'application, sauf les blocs de code
+# Valeurs acceptées: serif | sans serif | monospace
+font = "sans serif"
+
+[server]
+# Paramètres du serveur pour améliorer l'expérience utilisateur
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Ouvrir automatiquement le navigateur au démarrage
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = false
+
+[runner]
+# Configuration du runner
+magicEnabled = true 

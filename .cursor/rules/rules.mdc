@@ -1,0 +1,202 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+ 
+# Règle Cursor : Développement Réflexif, Rigoureux et Documenté
+ 
+## 🎯 Objectif Principal
+Développer le projet de manière **réflexive**, itérative et fiable, en utilisant `suivi_projet.md` comme source centrale, en **validant systématiquement chaque modification via la documentation officielle**, et en **comprenant l'impact sur la structure globale du projet avant toute action.**
+ 
+## 🧠 Méthodologie de Réflexion Systématique (OBLIGATOIRE)
+ 
+### 1. Analyse du Contexte
+- **État Actuel :**
+  - Description précise de la situation/problème
+  - Identification des symptômes
+  - Contexte d'apparition
+- **Impact Global :**
+  - Parties du code/système affectées
+  - Dépendances potentielles
+  - Effets de bord possibles
+- **Contraintes :**
+  - Techniques (versions, compatibilité)
+  - Fonctionnelles (exigences)
+  - Temporelles (urgence, planning)
+ 
+### 2. Décomposition du Problème
+- **Sous-problèmes :**
+  - Identifier les composants principaux
+  - Isoler les problématiques distinctes
+  - Définir les frontières
+- **Dépendances :**
+  - Cartographier les relations
+  - Identifier les points critiques
+  - Établir les prérequis
+- **Priorisation :**
+  - Ordre logique de résolution
+  - Points bloquants
+  - Quick wins potentiels
+ 
+### 3. Recherche & Documentation
+- **Sources Officielles :**
+  - Documentation des frameworks/librairies
+  - Guides de migration
+  - Release notes
+- **Patterns Connus :**
+  - Solutions existantes
+  - Best practices
+  - Anti-patterns à éviter
+- **Alternatives :**
+  - Solutions concurrentes
+  - Approches différentes
+  - Trade-offs
+ 
+### 4. Formulation d'Hypothèses
+- **Causes Possibles :**
+  - Liste exhaustive
+  - Probabilité relative
+  - Impact potentiel
+- **Preuves :**
+  - Éléments de support
+  - Contre-exemples
+  - Tests de validation
+- **Validation :**
+  - Critères de confirmation
+  - Tests spécifiques
+  - Métriques de succès
+ 
+### 5. Plan d'Action
+- **Solutions Potentielles :**
+  - Description détaillée
+  - Étapes d'implémentation
+  - Ressources nécessaires
+- **Avantages/Inconvénients :**
+  - Impact court terme
+  - Impact long terme
+  - Maintenance
+- **Critères de Succès :**
+  - Métriques mesurables
+  - Tests de validation
+  - Acceptance criteria
+ 
+## 📖 Fichier Central : 📂 `suivi_projet.md`
+Source de vérité unique. **Consultation obligatoire avant toute action, mise à jour obligatoire après chaque action.** Contient :
+1. **Description Générale :** Objectif, public, architecture
+2. **Plan de Tâches :** Statuts (`[ ]`, `[/]`, `[x]`, `[!]`), priorités
+3. **Journal des Modifications :** Historique daté
+4. **Suivi des Erreurs :** Section détaillée
+5. **Résultats des Tests :** Validation
+6. **Documentation Consultée :** Références clés
+7. **Structure du Projet :** Organisation des fichiers
+8. **Réflexions & Décisions :** Analyse des problèmes et solutions
+ 
+## 🛠️ Workflow Itératif Essentiel
+ 
+1. **🌍 ANALYSE STRUCTURE & CONTEXTE :**
+   - Examiner structure complète
+   - Lire `suivi_projet.md`
+   - Comprendre l'écosystème
+ 
+2. **🤔 RÉFLEXION & PLANIFICATION :**
+   - Appliquer Méthodologie de Réflexion
+   - Décomposer le problème
+   - Documenter le raisonnement
+ 
+3. **📝 VÉRIFICATION DOCUMENTATION :**
+   - Consulter docs officielles
+   - Valider approches
+   - Noter références
+ 
+4. **💡 CONCEPTION SOLUTION :**
+   - Proposer solution détaillée
+   - Justifier choix techniques
+   - Anticiper impacts
+ 
+5. **⚙️ IMPLÉMENTATION :**
+   - Suivre plan établi
+   - Tests unitaires
+   - Documentation inline
+ 
+6. **🔍 VALIDATION :**
+   - Tests fonctionnels
+   - Tests de régression
+   - Revue de code
+ 
+7. **📋 DOCUMENTATION :**
+   - Mettre à jour `suivi_projet.md`
+   - Changelog
+   - Leçons apprises
+ 
+## 🐛 Gestion des Erreurs & Debugging
+ 
+### Phase 1 : Observation
+1. **Collecter Informations :**
+   - Message d'erreur exact
+   - Stack trace complet
+   - Contexte d'apparition
+2. **Reproduire :**
+   - Cas minimal
+   - Conditions déclenchantes
+   - Documentation étapes
+ 
+### Phase 2 : Analyse
+1. **Contexte :**
+   - Code environnant
+   - Modifications récentes
+   - Patterns similaires
+2. **Hypothèses :**
+   - Causes possibles
+   - Probabilités
+   - Justifications
+ 
+### Phase 3 : Investigation
+1. **Validation :**
+   - Tests par hypothèse
+   - Collecte preuves
+   - Élimination hypothèses
+2. **Documentation :**
+   - Recherche docs
+   - Cas similaires
+   - Solutions connues
+ 
+### Phase 4 : Résolution
+1. **Solution :**
+   - Description détaillée
+   - Justification technique
+   - Impact anticipé
+2. **Validation :**
+   - Tests complets
+   - Documentation
+   - Revue solution
+ 
+## 📚 Apprentissage Continu
+ 
+### 1. Capitalisation
+- **Patterns :** Solutions réutilisables
+- **Anti-patterns :** Pièges à éviter
+- **Best Practices :** Standards à suivre
+ 
+### 2. Amélioration Process
+- **Retours :** Succès/échecs
+- **Ajustements :** Optimisations
+- **Partage :** Documentation
+ 
+## 🏆 RÈGLE D'OR
+ 
+ 
+**Toujours privilégier une approche réflexive et documentée plutôt qu'une correction rapide et intuitive.**
+ 
+---
+ 
+## 💡 Rappels Importants
+- Vérifier cohérence globale
+- Documenter chaque décision
+- Tester systématiquement
+- Partager les apprentissages
+
+- You can @ files here
+- You can use markdown but dont have to

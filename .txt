@@ -1,0 +1,18 @@
+Use Case – Création d’un Agent IA pour Scraper un Profil LinkedIn & Scorer un Contact**
+**🎯 Objectif**
+Créer un **agent IA automatisé** capable d’extraire les informations clés d’un profil LinkedIn à partir de son URL, et de générer un **score global** selon 3 critères :
+* Années d’expérience professionnelle
+* Niveau d’études
+* Secteur d’activité de l’entreprise actuelle
+ 
+**🛠️ Ce que vous devez faire**
+1. L’utilisateur fournit une **URL de profil LinkedIn public**.
+2. L’agent récupère automatiquement les données.
+3. Il restitue le résultat sous un format structuré (JSON ou tableur), avec un **score final**.
+Le choix des outils est **libre** (n8n, replit, parsing HTML, API, IA, etc.). Nous évaluons la **logique, la robustesse et l’utilité métier**.
+ 
+**📦 Livrables attendus**
+1. Une **vidéo de démonstration** (2-3 min) du workflow complet
+2. Un **lien vers le projet** (Make, n8n, Notion, GitHub, etc.)
+3. Un **exemple d’output** (JSON, tableur, ou autre)
+⚠️ L’agent doit **gérer proprement les erreurs ou données manquantes**.
