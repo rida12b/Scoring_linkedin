@@ -32,8 +32,8 @@ Pour utiliser cette application, vous aurez besoin :
 
 1. Clonez ce dépôt :
 ```bash
-git clone https://github.com/votre-username/linkedin-profile-scorer.git
-cd linkedin-profile-scorer
+git clone https://github.com/rida12b/Scoring_linkedin.git
+cd usecase_ayomi_scoring
 ```
 
 2. Créez un environnement virtuel et activez-le :
@@ -120,4 +120,4 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## 📞 Contact
 
-Pour toute question ou suggestion, n'hésitez pas à me contacter à travers les issues GitHub ou par email à [votre-email@example.com]. 
+Pour toute question ou suggestion, n'hésitez pas à me contacter à travers les issues GitHub ou par email à [rida.boualam@outlook.fr]. 
